@@ -1,0 +1,239 @@
+/* 
+#04009a
+#77acf1
+#3edbf0
+#c0fefc 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+/************Navbar************/
+
+nav {
+    background-color: #ffffff;
+    color: #04009a;
+}
+
+.nav-item {
+    float: right;
+    list-style: none;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+.nav-item li {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.nav-item li a {
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: #04009a;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: border-bottom .1s;
+}
+.nav-item li button {
+    padding-bottom: 8px;
+    text-decoration: none;
+    color: #04009a;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: border-bottom .1s;
+}
+.nav-item li a:hover {
+    border-bottom: 2px solid #04009a;
+}
+.nav-item li button:hover {
+    border-bottom: 2px solid #04009a;
+}
+
+/************Home************/
+
+.home-1 {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    background: url("./Images/hero-bg.png") center bottom no-repeat;
+    background-size: cover;
+    padding: 180px 0 110px 0;
+    overflow: hidden;
+}
+
+.hero-img{
+    width: 100%;
+    float: right;
+}
+.home-1 h1{
+    font-size: 250%;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 0.8px;
+    word-spacing: 4px;
+}
+.home-1_a a{
+    
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff; 
+    font-size: 130%;
+    border-radius: 50px;
+    padding: 6px 30px;
+}
+
+.home-1_a a:hover{
+    background-color: #176ddd ;
+}
+/************Login/Register************/
+
+.login{
+    background-color: #176ddd;
+    height: auto;
+}
+.form{
+    padding-top: 50px;
+    padding-left: 300px;
+    padding-bottom: 50px;
+}
+.form h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.form-group{
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 60%;
+    position: relative;
+    box-shadow: 2px 2px 10px #04009a;
+}
+.form-group input{
+    width: 60%;
+    border: none;
+    outline: none;
+    height: 40px;
+    display: block;
+    margin: 30px 95px;
+}
+.form-group button{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #04009a;
+    border: 2px solid #04009a; 
+    font-size: 130%;
+    border-radius: 50px;
+    padding: 1px 120px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+.form-group button:hover{
+    background-color: #176ddd;
+    color: #ffffff;
+    border: 2px solid #ffffff; 
+}
+.form-group p{
+    opacity: 0.8;
+    margin-left: 140px;
+}
+.form-group p a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+.form-group .line{
+    position: relative;
+}
+.form-group .line1::before{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    width: 65%;
+    height: 1.5px;
+    background: #04009a;
+}
+.form-group .line2::before{
+    content: "";
+    position: absolute;
+    top: 42px;
+    left: 90px;
+    width: 65%;
+    height: 1.5px;
+    background: #04009a;
+}
+
+/************Account************/
+.welcome{
+    background: #04009a;
+}
+.welcome h1{
+    color: #ffffff;
+    padding: 8px 25px;
+}
+.box{
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    opacity: 0.98;
+}
+.box-green{
+    background-color: #3ef02e;
+}
+.box-green:hover{
+    opacity: 1;
+    border: 2px solid #000000;
+    transform: translate(1%,1%);
+}
+.box-blue{
+    background-color: #33aedf;
+}
+.box-blue:hover{
+    opacity: 1;
+    border: 2px solid #000000;
+    transform: translate(1%,1%);
+}
+.box-red{
+    background-color: #f52323;
+}
+.box-red:hover{
+    opacity: 1;
+    border: 2px solid #000000;
+    transform: translate(1%,1%);
+}
+.box-yellow{
+    background-color: #fff600;
+}
+.box-yellow:hover{
+    opacity: 1;
+    border: 2px solid #000000;
+    transform: translate(1%,1%);
+}
+.box-grey{
+    background-color: #a7bbc7;
+}
+.box-grey:hover{
+    opacity: 1;
+    border: 2px solid #000000;
+    transform: translate(1%,1%);
+}
+.link{
+    text-decoration: none;
+    color: #000000;
+}
+.link:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
