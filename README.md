@@ -1,4 +1,4 @@
-# banking-website
+# Net-Banking-website
 Project Name: Start with a clear and concise title that represents your project, e.g., "Banking Website - SimpleBank."
 
 Description: The Basic Banking Website is a simple yet functional web application that allows users to perform basic banking operations, such as creating accounts, checking account balances, making deposits, and withdrawals. The application is built using modern web development technologies, including React for the frontend, Express for the backend, and MongoDB for the database.
